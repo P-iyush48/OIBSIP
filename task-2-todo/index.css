@@ -1,0 +1,102 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+body{
+    background: linear-gradient(250deg,purple, wheat);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.todoapp{
+    width: 50%;
+    height: fit-content;
+    padding: 10px;
+    margin: 100px auto;
+    background: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+h2{
+    font-size: 2.5rem;
+    font-style: oblique;
+}
+
+#inputTask{
+    width: 75%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.95rem;
+    font-style: oblique;
+    padding: 2.5px 5px 2.5px 5px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    margin: 0px 10px 0px 10px;
+}
+#inputTask:hover{
+    background: transparent;
+    color: black;
+    border: 2px solid purple;
+}
+
+#addBtn{
+    width: 5rem;
+    height: 2rem;
+    line-height: 1.5rem;
+    padding: 3px;
+    border-radius: 15px;
+    outline: none;
+    border: 1.5px solid blue;
+    color: blue;
+    font-weight: bold;
+    font-size: 0.90rem;
+    font-style: oblique;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#addBtn:hover{
+    opacity: 0.7;
+    background:rgba(215, 156, 54, 0.682);
+    color: rgb(68, 1, 1);
+    font-weight: bold;
+    font-size: 0.90rem;
+    border: 1.5px solid rgb(68, 1, 1);
+}
+
+ 
+ 
+.li{
+            width: fit-content;
+            line-height: 1rem;
+            background: turquoise;
+            color: black;
+            border: 1.5px solid black;
+            border-radius: 15px;
+            font-size: 17px;
+            font-weight: 500;
+            font-style: oblique;
+            padding: 10px 8px 10px 8px;
+            margin: 10px 10px 10px 10px;
+            list-style: none;
+        }
+.deleteBtn{
+            width: fit-content;
+            background: rgba(255, 0, 0, 0.93);
+            border-radius: 5px;
+            color: white;
+            font-size: 17px;
+            font-weight: 400;
+            font-style: oblique;
+            padding: 2px
+        }
+.deleteBtn:hover{
+    background-color: #fff;
+    color: red;
+    border-color: red;
+}
