@@ -21,6 +21,6 @@ Task 4     🫵  :  This task develop on the based on Node.js + Express.js serve
 2. change directory to the existing task directory.
 3. then type { nodemon server.js  }.
 4. it return the url with port number, press ctrl key + click on that url like this  ->  " http://localhost:portNum "
-port number already defined.
+port number already there.
 
 
