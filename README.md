@@ -12,7 +12,7 @@ Task 3 Url 🔗  :  https://tribute-page-piyush48.netlify.app/
 Task 4          :  This task develop on the based on Node.js + Express.js server framework which manually run the server with node command.
                     Task 4 is a ( Login Authentication System ).
                     
-# First, install dependencies for run the Login Authenticetion applicaction on server 
+# First, install dependencies to run the Login Authenticetion applicaction on server 
 * npm init -y
 * npm install express express-session bcrypt body-parser
 
